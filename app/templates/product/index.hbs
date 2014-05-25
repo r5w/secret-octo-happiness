@@ -1,0 +1,27 @@
+<div class="row">
+	<div class="small-12 columns">
+		<div class="panel">
+			Welcome to the {{model.name}} Product!<br />..choose a thing!
+		</div>
+		<div class="panel">
+			{{spares}}
+		</div>
+{{!-- 	{{#with model.spares as spare}} --}}
+{{!-- {{ controller }} --}}
+			{{#each spare in model.spares itemController="spares"}} 
+				<dl class="panel">
+					<dt><h5>[{{spare.code}}] {{spare.name}}</h5></dt>
+					<dd><img {{ bind-attr src=imagepath }} alt="test" ></dd>
+					<dd>{{imagepath}}</dd>
+					<dd>£{{price}}</dd>
+					<dd>£</dd>
+					<dd>{{#link-to 'spare.edit' spare}}Change {{ spare.name }}{{/link-to}}</dd>
+				</dl>
+			{{else}}
+				<dl class="panel">
+						<p>No spares attached..</p>
+				</dl>
+			{{/each}} 		
+{{!-- 	{{/with}}  --}}		
+	</div>
+</div>

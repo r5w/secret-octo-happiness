@@ -1,0 +1,26 @@
+<div class="row">
+  <div class="small-6 columns">
+      <h5>{{model.name}}</h5>
+      <table>
+        <tr>
+          <td colspan="2">
+            <img {{bind-attr src=imagepath alt=name}} >
+          </td>
+        </tr>
+        {{#each model.attributes}}
+        <tr>
+          <td>
+            <strong>{{this.key}}:</strong>
+          </td>
+          <td>
+            {{this.value}}
+          </td>
+        </tr>
+        {{/each}}
+      </table>
+    {{#link-to 'spare.edit' model}}Change{{/link-to}}
+  </div>
+  <div class="small-6 columns">
+    {{outlet}}
+  </div>
+</div>

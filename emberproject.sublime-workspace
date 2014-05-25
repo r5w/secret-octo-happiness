@@ -1,0 +1,621 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pr",
+				"product"
+			],
+			[
+				"f",
+				"feedback"
+			],
+			[
+				"line",
+				"linesToClear"
+			],
+			[
+				"shutt",
+				"shutter_pin"
+			],
+			[
+				"c",
+				"colour3"
+			],
+			[
+				"co",
+				"colour3"
+			],
+			[
+				"ste",
+				"step_pattern"
+			],
+			[
+				"s",
+				"setStep"
+			],
+			[
+				"clea",
+				"clearConsole"
+			],
+			[
+				"cl",
+				"clearLine"
+			],
+			[
+				"rem",
+				"removeAll"
+			],
+			[
+				"obs",
+				"observableArray"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/templates/products/index.hbs",
+			"settings":
+			{
+				"buffer_size": 121,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/templates/product.hbs",
+			"settings":
+			{
+				"buffer_size": 1375,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/templates/product/index.hbs",
+			"settings":
+			{
+				"buffer_size": 757,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/templates/products.hbs",
+			"settings":
+			{
+				"buffer_size": 375,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/router.js",
+			"settings":
+			{
+				"buffer_size": 528,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/models/product_model.js",
+			"settings":
+			{
+				"buffer_size": 1625,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/models/spare_model.js",
+			"settings":
+			{
+				"buffer_size": 6737,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/controllers/product_controller.js",
+			"settings":
+			{
+				"buffer_size": 363,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/templates/spare.hbs",
+			"settings":
+			{
+				"buffer_size": 572,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/controllers/spare_controller.js",
+			"settings":
+			{
+				"buffer_size": 323,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 54.0,
+		"selected_items":
+		[
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/rob/Documents/webdevelopment/emberproject/app/scripts/routes/product_index_route.js",
+		"/home/rob/Documents/webdevelopment/emberproject/app/templates/application.hbs",
+		"/home/rob/Documents/webdevelopment/emberproject/app/templates/spares.hbs",
+		"/home/rob/Documents/webdevelopment/emberproject/app/index.html",
+		"/home/rob/Documents/webdevelopment/emberproject/app/scripts/app.js",
+		"/home/rob/Documents/webdevelopment/emberproject/app/templates/spare/index.hbs",
+		"/home/rob/Documents/webdevelopment/emberproject/app/scripts/controllers/spare_controller.js",
+		"/home/rob/Documents/webdevelopment/emberproject/app/scripts/controllers/spare_edit_controller.js",
+		"/home/rob/Documents/webdevelopment/emberproject/app/scripts/controllers/spares_controller.js",
+		"/home/rob/Documents/webdevelopment/emberproject/app/scripts/views/spare_edit_view.js",
+		"/home/rob/Documents/webdevelopment/emberproject/app/scripts/views/spare_view.js",
+		"/home/rob/Documents/webdevelopment/emberproject/app/scripts/views/spares_view.js",
+		"/home/rob/Documents/webdevelopment/emberproject/app/scripts/routes/spare_route.js",
+		"/home/rob/Documents/webdevelopment/emberproject/app/scripts/routes/spares_route.js",
+		"/home/rob/Documents/webdevelopment/emberproject/app/scripts/routes/spare_edit_route.js",
+		"/home/rob/Documents/webdevelopment/emberproject/app/scss/_settings.scss",
+		"/home/rob/Documents/webdevelopment/emberproject/app/scripts/controllers/component_controller.js",
+		"/home/rob/Documents/webdevelopment/emberproject/app/bower_components/foundation/scss/foundation/_settings.scss",
+		"/home/rob/Documents/webdevelopment/emberproject/app/styles/app.scss",
+		"/home/rob/Documents/webdevelopment/emberproject/Gruntfile.js",
+		"/home/rob/Documents/webdevelopment/emberproject/app/bower_components/foundation/scss/foundation.scss",
+		"/home/rob/Documents/webdevelopment/emberproject/app/bower_components/foundation/css/foundation.css",
+		"/home/rob/Documents/webdevelopment/emberproject/app/styles/nav.css",
+		"/home/rob/Documents/webdevelopment/emberproject/app/bower_components/jquery-placeholder/README.md",
+		"/home/rob/Documents/webdevelopment/emberproject/app/styles/style.css",
+		"/home/rob/Documents/webdevelopment/emberproject/app/css/app_override.css",
+		"/home/rob/Documents/webdevelopment/backbone/app/scripts/models/todo.js",
+		"/home/rob/Documents/webdevelopment/backbone/app/scripts/collections/todos.js",
+		"/home/rob/Documents/webdevelopment/backbone/app/scripts/main.js",
+		"/home/rob/Documents/webdevelopment/backbone/app/index.html",
+		"/home/rob/Documents/webdevelopment/backbone/app/scripts/views/todo.js",
+		"/home/rob/Documents/webdevelopment/backbone/app/scripts/views/todos.js",
+		"/usr/local/bin/bottle.py",
+		"/home/rob/Documents/python_learning/LA_project/Camera.py",
+		"/home/rob/Documents/python_learning/LA_project/templates/index.tpl",
+		"/home/rob/Documents/python_learning/LA_project/main.py",
+		"/home/rob/Documents/python_learning/LA_project/main_with_notes.py",
+		"/home/rob/Documents/python_learning/list.py",
+		"/home/rob/Documents/python_learning/helloworld.py",
+		"/home/rob/Documents/python learnings/helloworld.py",
+		"/home/rob/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/rob/Documents/webdevelopment/aradastoves.com/application/controllers/dealerlocator.php",
+		"/home/rob/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/rob/Documents/web development/aradastoves.com/application/views/javascript/kostovefinder.blade.php",
+		"/home/rob/Documents/web development/aradastoves.com/application/views/products/partials/finderresults.blade.php",
+		"/home/rob/Documents/web development/aradastoves.com/application/views/products/partials/finder.blade.php",
+		"/home/rob/Documents/web development/aradastoves.com/application/views/products/finder.blade.php",
+		"/home/rob/Documents/web development/aradastoves.com/#don't delete this line below"
+	],
+	"find":
+	{
+		"height": 42.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/home/rob/Documents/webdevelopment/emberproject/app/scripts"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\"non_essential\":\"No\"",
+			"component",
+			"components",
+			"component",
+			"Spare",
+			"component",
+			"Component",
+			"component",
+			"{\"",
+			"},",
+			",",
+			"},",
+			"section",
+			"compass",
+			"sass",
+			"backbone",
+			"GPIO",
+			"A_1_pin",
+			"btn",
+			"span3",
+			"span",
+			"row-fluid",
+			"A_1"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 7,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/templates/products/index.hbs",
+					"settings":
+					{
+						"buffer_size": 121,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								121,
+								121
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Handlebars/Handlebars.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/templates/product.hbs",
+					"settings":
+					{
+						"buffer_size": 1375,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								783,
+								783
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Handlebars/Handlebars.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 114.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/templates/product/index.hbs",
+					"settings":
+					{
+						"buffer_size": 757,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								757,
+								757
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Handlebars/Handlebars.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/templates/products.hbs",
+					"settings":
+					{
+						"buffer_size": 375,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								142,
+								142
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Handlebars/Handlebars.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/scripts/router.js",
+					"settings":
+					{
+						"buffer_size": 528,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								438,
+								438
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/scripts/models/product_model.js",
+					"settings":
+					{
+						"buffer_size": 1625,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								164,
+								164
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/scripts/models/spare_model.js",
+					"settings":
+					{
+						"buffer_size": 6737,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								257,
+								257
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/scripts/controllers/product_controller.js",
+					"settings":
+					{
+						"buffer_size": 363,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								116,
+								116
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/templates/spare.hbs",
+					"settings":
+					{
+						"buffer_size": 572,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								267,
+								267
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Handlebars/Handlebars.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "app/scripts/controllers/spare_controller.js",
+					"settings":
+					{
+						"buffer_size": 323,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								323,
+								323
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 353.0,
+	"status_bar_visible": true
+}

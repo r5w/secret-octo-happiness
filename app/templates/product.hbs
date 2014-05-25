@@ -1,0 +1,54 @@
+<div class="row">
+  <div class="small-6 columns">
+    {{!-- {{ log model }} --}}
+    <img {{ bind-attr src=imagepath }} alt="test" >
+    <h5>{{model.name}}</h5>
+    <dl>
+      {{#each model.attributes}}
+      <dd>
+          <strong>{{this.key}}: </strong>{{this.value}}
+      </dd>
+      {{/each}}
+    </dl>
+    {{#link-to 'product.edit' model}}Change {{ model.name }}{{/link-to}}
+    <hr />
+    <h6>{{model.name}} Spares</h6>
+    {{!--
+    <dl>
+    {{#each spare in model.spares}}
+    {{#with spare}}
+      {{price}}
+      {{imagepath}}
+    {{/with }}
+      <dd>{{spare.name}}: {{spare.price}}</dd>
+      <dt><img {{ bind-attr src=spare.imagepath }} alt="test" ></dt>
+      {{#link-to 'spare.edit' spare}}Change {{ spare.name }}{{/link-to}}
+    {{/each}}
+  </span>
+    </dl>
+  --}}
+
+  <ul class="block-grid-2"><li>
+ {{#with model.spares as spare}} 
+      <dl class="panel">
+  {{!--  {{#view Emberproject.SpareView spare="spare"}} --}}
+
+        <dt><h5>[{{spare.code}}] {{spare.name}}</h5></dt>
+        <dd><img {{ bind-attr src=spare.imagepath }} alt="test" ></dd>
+        <dd>blah{{ imagepath }}</dd>
+        <dd>£{{ spare.price }}</dd>
+      <dd>{{#link-to 'spare.edit' spare}}Change {{ spare.name }}{{/link-to}}</dd>
+        
+  {{!--  {{/view}} --}}
+      </dl>
+
+   
+     {{/with}} 
+    </li></ul>
+
+
+  </div>
+  <div class="small-6 columns">
+    {{outlet}}
+  </div>
+</div>

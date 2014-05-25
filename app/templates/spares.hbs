@@ -1,0 +1,17 @@
+<div class="row">
+	<div class="small-12 columns">
+		<h4>Spares</h4>
+	</div>
+</div>
+<div class="row">
+	<div class="small-3 columns">
+		<ul class="side-nav">
+		 {{#each model}}
+		 <li>{{#link-to 'spare' this}}{{this.id}}{{/link-to}}</li>
+		  {{/each}}
+		</ul>
+	</div>
+	<div class="small-9 columns">
+		{{outlet}}
+	</div>
+</div>
